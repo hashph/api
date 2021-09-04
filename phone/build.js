@@ -3,5 +3,5 @@ const phones = require('./phones.json');
 
 Object.keys(phones).map(countryCode => {
   const data = { country: countryCode, phone: phones[countryCode] };
-  writeFileSync(`${__dirname}/../build/phone/${countryCode}.json`, JSON.stringify(data), { encoding: 'utf8' });
+  writeFileSync(`build/phone/${countryCode}.json`, JSON.stringify(data), { encoding: 'utf8' });
 });
