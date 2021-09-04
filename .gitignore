@@ -1,0 +1,4 @@
+/build/*
+!/build/.gitkeep
+/build/phone/*
+!/build/phone/.gitkeep
